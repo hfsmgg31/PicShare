@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon Site de Photographie</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mon Site de Photographie</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenue sur mon site de photographie !</h2>
+      <p>Sur ce site, vous pourrez découvrir mes plus belles photos.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mon Site de Photographie. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galerie de Photos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Galerie de Photos</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Ma Galerie de Photos</h2>
+      <div class="gallery">
+        <img src="image1.jpg" alt="Photo 1">
+        <img src="image2.jpg" alt="Photo 2">
+        <img src="image3.jpg" alt="Photo 3">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mon Site de Photographie. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+/* Réinitialisation des styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon Site de Photographie</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mon Site de Photographie</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenue sur mon site de photographie !</h2>
+      <p>Sur ce site, vous pourrez découvrir mes plus belles photos.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mon Site de Photographie. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galerie de Photos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Galerie de Photos</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Ma Galerie de Photos</h2>
+      <div class="gallery">
+        <img src="image1.jpg" alt="Photo 1">
+        <img src="image2.jpg" alt="Photo 2">
+        <img src="image3.jpg" alt="Photo 3">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mon Site de Photographie. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+/* Réinitialisation des styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles spécifiques à la galerie */
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+}
